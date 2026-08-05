@@ -16,7 +16,9 @@ Compose path: `docker-compose.yml`
 Нажмите Deploy the stack.
 ---
 cd /root/docker
+
 git clone https://github.com/dublespace/kerio-updates-mirror.git
+
 cd kerio-updates-mirror
 
 # 1. Сборка Nginx

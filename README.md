@@ -34,5 +34,7 @@ DOCKER_BUILDKIT=1 docker build -t kum_xray:v26.3.27 ./_xray
 DOCKER_BUILDKIT=1 docker build -t kum_tor:v0.4.9.11 ./_tor
 
 chmod +x /root/docker/kerio-updates-mirror/_tor/start.sh
+
 chmod -R 644 /root/docker/kerio-updates-mirror/_tor/*
+
 chmod +x /root/docker/kerio-updates-mirror/_tor/start.sh
